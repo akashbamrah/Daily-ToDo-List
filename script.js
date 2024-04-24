@@ -1,23 +1,3 @@
-// localStorage.setItem("name", "akash");
-// localStorage.setItem("city", "amritsar");
-
-// const key = prompt("Enter a Key:");
-// const value = prompt("Enter a Value:");
-// localStorage.setItem(key, value);
-
-// localStorage.removeItem("obj");
-//localStorage.removeItem("null");
-//console.log(`The value of ${key} is ${localStorage.getItem(key)}`);
-
-// console.log(localStorage.length);
-// localStorage.clear();
-// localStorage.setItem("array", "[1,2,3,4]");
-// localStorage.setItem(
-//   "obj",
-//   JSON.stringify({ name: "akash", city: "Amritsar" })
-// );
-// console.log(JSON.parse(localStorage.getItem("obj")));
-
 //daily tasks manager
 const formToggle = document.querySelector("#form-toggle");
 const form = document.querySelector("#form");
