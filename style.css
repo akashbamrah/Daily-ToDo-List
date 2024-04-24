@@ -1,0 +1,30 @@
+body {
+  background-image: url("https://img.freepik.com/premium-photo/list-icon-notebook-with-completed-todo-list-3d-render_471402-428.jpg?w=740");
+  background-size: cover;
+}
+
+#dailyToDo {
+  max-height: 400px;
+  border: 1px solid black;
+  border-radius: 3px;
+  overflow-y: scroll;
+}
+
+#previous {
+  max-height: 400px;
+  overflow-y: scroll;
+  border: 1px solid black;
+  border-radius: 3px;
+}
+
+.done {
+  text-decoration: line-through;
+}
+
+.tasks {
+  padding: 13px;
+}
+
+.tasks:hover {
+  box-shadow: 2px 2px 2px 2px grey;
+}
